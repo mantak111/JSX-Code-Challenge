@@ -4,7 +4,7 @@
 //It should contain 3 list elements.
 
 import React from "react";
-import ReactDOM, { render } from "react-dom";
+import ReactDOM from "react-dom";
 
 ReactDOM.render(
   <div>
