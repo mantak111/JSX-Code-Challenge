@@ -1,19 +1,13 @@
-//Create a react app from scratch.
-//It should display a h1 heading.
-//It should display an unordered list (bullet points).
-//It should contain 3 list elements.
-
 import React from "react";
 import ReactDOM from "react-dom";
 
+const name = "Mantas";
+const lnum = 7;
+
 ReactDOM.render(
   <div>
-    <h1>My favourite fruits</h1>
-    <ul>
-      <li>Apple</li>
-      <li>Mango</li>
-      <li>Avocado</li>
-    </ul>
+    <h1>Labas, {name}!</h1>
+    <p>Jūsų sėkmingas skaičius yra {lnum}</p>
   </div>,
   document.getElementById("root")
 );
